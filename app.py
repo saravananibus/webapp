@@ -4,10 +4,10 @@ import pymysql
 app = Flask(__name__)
 
 # Replace these with your database credentials
-DB_HOST = 'your-database-host'
-DB_USER = 'your-username'
-DB_PASSWORD = 'your-password'
-DB_NAME = 'your_database_name'
+DB_HOST = "mydbinstance.ap-southeast-1.rds.amazonaws.com"
+DB_USER = "admin"
+DB_PASSWORD = "admin123
+DB_NAME = "mydbinstance"
 
 @app.route('/')
 def index():
